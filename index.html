@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="hr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Izrada uplatnice.">
+        <link rel="stylesheet" href="style.css">
+        <title>Uplatnica</title>
+    </head>
+    <body>
+        <form method="post" action="" class="uOmotac">
+            <div class="uNutarnjiOmotac">
+                <div class="uPlatitelj">
+                    <div class="uStupac1" title="PLATITELJ (naziv/ime i adresa)">
+                        <textarea name="platitelj" maxlength="65"placeholder="PLATITELJ (naziv/ime i adresa)"></textarea>
+                    </div>
+                    <div class="uStupac2">
+                        <div class="uRedak1">
+                            <div class="uStupacA" title="Upiši 'X' za Hitno">
+                                <span>Hitno:</span>
+                                <input type="text" maxlength="1" name="hitno"/>
+                            </div>
+                            <div class="uStupacB" title="Valuta Plaćanja">
+                                <span>Valuta plaćanja:</span>
+                                <input type="text" maxlength="3" name="valuta"/>
+                            </div>
+                            <div class="uStupacC" title="Iznos">
+                                <span>Iznos:</span>
+                                <input type="text" maxlength="15" name="iznos"/>
+                            </div>
+                        </div>
+                        <div class="uRedak2">
+                            <div class="uStupacA">
+                                <span>IBAN ili broj računa platitelja:</span>
+                                <input type="text" name="IBANplatitelja" maxlength="21"/>
+                            </div>
+                        </div>
+                        <div class="uRedak3">
+                            <div class="uStupacA">
+                                <span>Model:</span>
+                                <input type="text" name="model" maxlength="4"/>
+                            </div>
+                            <div class="uStupacB">
+                                <span>Poziv na broj platitelja:</span>
+                                <input type="text" name="pbPlatitelja" maxlength="22"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="iban">
+                    <div class="uStupacA">
+                        <span>IBAN ili broj računa primatelja:</span>
+                        <input type="text" name="brPrimatelja" maxlength="34"/>
+                    </div>                    
+                </div>
+                <div class="uPrimatelj">
+                    <div class="uStupac1" title="PRIMATELJ (naziv/ime adresa)">
+                        <textarea name="primatelj" maxlength="65"placeholder="PRIMATELJ (naziv/ime i adresa)"></textarea>
+                    </div>
+                    <div class="uStupac2">
+                        <div class="uRedak1">
+                            <div class="uStupacA">
+                                <span>Model:</span>
+                                <input type="text" name="primModel" maxlength="4"/>
+                            </div>
+                            <div class="uStupacB">
+                                <span>Poziv na broj primatelja:</span>
+                                <input type="text" name="pbPrimatelja" maxlength="22"/>
+                            </div>
+                        </div>
+                        <div class="uRedak2">
+                            <div class="uStupacA">
+                                <span>Šifra namjene:</span>
+                                <span>Opis plaćanja:</span>
+                                <input type="text" name="sNamjene" maxlength="4"/>
+                                <span>Datum izvršenja:</span>
+                                <input type="number" name="dIzvrsenja" maxlength="8"/>
+                            </div>
+                            <div class="uStupacB">
+                                <textarea name="oPlacanja" maxlength="80"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uBanka">
+                    <div class="uStupac1">
+                        <div class="uRedak1">
+                            <div class="uStupacA">
+                                <span>BIC i/ili naziv banke primatelja:</span>
+                                <input type="text" name="BIC" maxlength="11"/>
+                            </div>
+                            <div class="uStupacB">
+                                <span>Primatelj (osoba):</span>
+                            </div>
+                            <div class="uStupacC">
+                                <span>Fizička</span>
+                                <span>Pravna</span>
+                                <input type="text" maxlength="1" name="fizicka"/>
+                                <input type="text" maxlength="1" name="pravna"/>
+                            </div>
+                        </div>
+                        <div class="uRedak2">
+                            <textarea name="nazivBanke" maxlength="65"></textarea>
+                        </div>
+                        <div class="uRedak3">
+                            <div class="uStupacA">
+                                <span>Valuta<br/>pokrića:</span>
+                                <input type="text" name="vPokrice" maxlength="3"/>
+                            </div>
+                            <div class="uStupacB">
+                                <span>Troškovna<br>opcija:</span>
+                            </div>
+                            <div class="uStupacC">
+                                <span>BEN</span>
+                                <span>SHA</span>
+                                <span>OUR</span>
+                                <input type="text" maxlength="1" name="ben"/>
+                                <input type="text" maxlength="1" name="sha"/>
+                                <input type="text" maxlength="1" name="our"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uStupac2">
+                        <textarea name="pecatPU" maxlength="65" placeholder="Pečat korisnika PU"></textarea>
+                    </div>
+                    <div class="uStupac3">
+                        <textarea name="potpisPU" maxlength="65" placeholder="Potpis korisnika PU"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

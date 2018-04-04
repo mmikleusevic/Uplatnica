@@ -1,0 +1,136 @@
+html,body{margin:0;padding:0;}
+
+/* UPLATNICA */
+.uOmotac{width:calc(149.5mm - 7mm); height:calc(102mm - 19mm); margin:15px 0 0 15px; padding:8mm 2mm 11mm 5mm; background-color:white; box-shadow:1px 1px 10px #282828;}
+.uOmotac .uNutarnjiOmotac{width:100%;height:100%;box-shadow:inset 0.3mm 0.3mm 0 red,inset -0.3mm -0.3mm 0 red;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj{display:table;width:100%;height:20mm;box-shadow:inset 0 -0.3mm 0 red;}
+
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac1{display:table-cell;width:43.5mm;height:100%;box-shadow:inset -0.15mm 0 0 red;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac1 textarea{cursor:pointer;width:calc(100% - calc(0.45mm + 4mm));height:calc(100% - 0.6mm);margin:0.3mm 0.15mm 0.3mm 0.3mm;padding:2mm;resize:none;border:none;overflow:hidden;font-family:arial;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac1 textarea::-webkit-input-placeholder{color:red;font-size:6pt;}
+
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2{display:table-cell;width:calc(100% - 43.5mm);height:100%;box-shadow:inset 0.15mm 0 0 red;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1{display:table;width:100%;height:6mm;box-shadow:inset -0.3mm -0.3mm 0 red,inset 0.15mm 0.3mm 0 red;background-color:lightcoral;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacA{display:table-cell;width:14mm;vertical-align:middle;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacA span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:1.5mm;padding-left:3.5mm;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacA input{cursor:pointer;width:3.5mm;height:3.5mm;padding:0;border:0.15mm solid red;text-align:center;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacB{display:table-cell;width:23mm;vertical-align:bottom;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacB span{font-family:arial;font-size:6pt;color:red;line-height:.9;float:left;width:10mm;text-align:left;padding-left:2mm;margin-top:.15mm;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacB input{cursor:pointer;width:10mm;height:4.5mm;padding:0;border:0.15mm solid red;text-align:center;text-transform:uppercase;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacC{display:table-cell;vertical-align:bottom;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacC span{font-family:arial;font-size:6pt;color:red;line-height:.9;float:left;text-align:left;padding-left:2mm;margin-top:1.25mm;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak1 .uStupacC input{cursor:pointer;width:51.5mm;height:4.5mm;padding:0;margin-right:1mm;border:0.15mm solid red;text-align:right;text-transform:uppercase;}
+
+
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak2{display:table;width:100%;height:6mm;box-shadow:inset -0.3mm -0.15mm 0 red,inset 0.15mm 0 0 red;background-color:lightpink;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak2 .uStupacA{display:table-cell;vertical-align:bottom;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak2 .uStupacA span{display:inline-block;width:22mm;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:3.5mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak2 input{cursor:pointer;width:71.2mm;height:4.5mm;padding:0;margin-right:1mm;border:0.15mm solid red;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak3{display:table;width:100%;height:8mm;box-shadow:inset -0.3mm 0 0 red,inset 0.15mm 0 0 red;background-color:lightpink;}
+
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak3 .uStupacA{display:table-cell;width:17mm;vertical-align:bottom;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak3 .uStupacA span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:3.5mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak3 .uStupacA input{cursor:pointer;width:13.5mm;height:4.5mm;padding:0;border:0.15mm solid red;border-bottom:none;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak3 .uStupacB{display:table-cell;width:calc(100% - 17mm);vertical-align:bottom;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak3 .uStupacB span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:6.75mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPlatitelj .uStupac2 .uRedak3 .uStupacB input{cursor:pointer;width:74mm;height:4.5mm;padding:0;margin-right:1mm;border:0.15mm solid red;border-bottom:none;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .iban{display:table;width:100%;height:6mm;box-shadow:inset 0 -0.3mm 0 red;background-color:lightpink;}
+.uOmotac .uNutarnjiOmotac .iban .uStupacA{display:table-cell;box-shadow:inset 0.3mm 0 0 red, inset -0.3mm 0 0 red;vertical-align:bottom;}
+.uOmotac .uNutarnjiOmotac .iban .uStupacA span{display:inline-block;width:19.25mm;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:6.75mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .iban .uStupacA input{cursor:pointer;width:114.5mm;height:4.5mm;padding:0;margin-right:1mm;border:0.15mm solid red;text-align:left;text-transform:uppercase;float:right;}
+
+/* PRIMATELJ */
+.uOmotac .uNutarnjiOmotac .uPrimatelj{display:table;width:100%;height:25mm;box-shadow:inset 0 -0.3mm 0 red;}
+
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac1{display:table-cell;width:43.5mm;height:100%;box-shadow:inset -0.15mm 0 0 red;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac1 textarea{cursor:pointer;width:calc(100% - calc(0.45mm + 4mm));height:calc(100% - 0.6mm);margin:0.3mm 0.15mm 0.3mm 0.3mm;padding:2mm;resize:none;border:none;overflow:hidden;font-family:arial;}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac1 textarea::-webkit-input-placeholder{color:red;font-size:6pt;}
+
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2{display:table-cell;width:calc(100% - 43.5mm);height:100%;box-shadow:inset 0.15mm 0 0 red;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak1{display:table;width:100%;height:8mm;box-shadow:inset -0.3mm -0.15mm 0 red,inset 0.15mm 0mm 0 red;background-color:lightpink;}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2{display:table;width:100%;height:calc(100% - 8mm);box-shadow:inset -0.3mm 0mm 0 red,inset 0.15mm 0 0 red;background-color:lightpink;}
+
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak1 .uStupacA{display:table-cell;width:17mm;vertical-align:bottom;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak1 .uStupacA span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:3.5mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak1 .uStupacA input{cursor:pointer;width:13.5mm;height:4.5mm;padding:0;border:0.15mm solid red;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak1 .uStupacB{display:table-cell;width:calc(100% - 17mm);vertical-align:bottom;text-align:right;}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak1 .uStupacB span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:6.75mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak1 .uStupacB input{cursor:pointer;width:74mm;height:4.5mm;padding:0;margin-right:1mm;border:0.15mm solid red;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2 .uStupacA{display:table-cell;width:34mm;vertical-align:bottom;text-align:left;}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2 .uStupacA span:nth-child(1){display:inline-block;width:calc(100% - calc(5mm + 9mm));font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:3.5mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2 .uStupacA span:nth-child(2){display:inline-block;width:9mm;margin-bottom:-5mm;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2 .uStupacA input:nth-child(3){cursor:pointer;width:13.5mm;height:4.5mm;margin-left:3.5mm;margin-bottom:2px;padding:0;border:0.15mm solid red;text-align:right;text-transform:uppercase;}
+.uRedak2 .uStupacA span:nth-child(4){display:inline-block;width:100%;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0;padding-left:3.5mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2 .uStupacA input:nth-child(5){cursor:pointer;width:27mm;height:4.5mm;margin-left:3.5mm;padding:0;border:0.15mm solid red;border-bottom:none;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2 .uStupacB{display:table-cell;width:calc(100% - 34mm);vertical-align:top;text-align:left;padding-top:1mm;}
+
+.uOmotac .uNutarnjiOmotac .uPrimatelj .uStupac2 .uRedak2 .uStupacB textarea{cursor:pointer;border:1px solid red;resize:none;border-bottom:none;width:calc(100% - 5.5mm);padding:2mm;height:100%;overflow:hidden;font-family:arial;}
+
+/* BANKA */
+.uOmotac .uNutarnjiOmotac .uBanka{display:table;width:100%;height:32.6mm;box-shadow:inset 0 -0.3mm 0 red;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1{display:table-cell;width:59mm;height:100%;box-shadow:inset -0.15mm -0.3mm 0 red,inset 0.3mm 0.15mm 0 red;vertical-align:top;background-color:lightpink;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 {display:table;width:100%;height:8mm;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacA{display:table-cell;width:34mm;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacA span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:1mm;padding-left:1mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacA input{cursor:pointer;width:calc(100% - 1.6mm);height:4.5mm;padding:0;margin-left:1mm;border:0.15mm solid red;border-bottom:none;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacB{display:table-cell;width:11mm;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacB span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:1mm;padding-right:1mm;text-align:right;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacC{display:table-cell;width:calc(100% - 45mm);vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacC span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:1mm;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacC span:nth-child(2){font-size:4pt;float:right;margin-right:1mm;padding:0.5mm 0;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacC input{cursor:pointer;width:3.5mm;height:3.5mm;padding:0;border:0.15mm solid red;text-align:center;float:left;margin-top:0.5mm;margin-left:1mm;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak1 .uStupacC input:last-child{margin-top:0.25mm;float:right;margin-right:2mm;margin-left:0;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak2 {display:inline-block;width:100%;height:18mm;float:left;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak2 textarea{cursor:pointer;width:calc(100% - calc(2mm + 5.5mm));height:calc(100% - 4.5mm);margin:0mm 0.15mm 0.3mm 1mm;padding:2mm;resize:none;border:0.15mm solid red;overflow:hidden;font-family:arial;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 {display:table;width:100%;height:6.5mm;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacA{display:table-cell;width:20mm;vertical-align:middle;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacA span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:1.3mm;padding-left:1mm;text-align:left}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacA input{cursor:pointer;width:10mm;height:4.5mm;padding:0;margin-left:1mm;margin-top:1.3mm;border:0.15mm solid red;border-bottom:none;text-align:right;text-transform:uppercase;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacB{display:table-cell;width:20mm;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacB span{display:inline-block;font-family:arial;font-size:6pt;color:red;line-height:1;margin-top:1.3mm;padding-right:1mm;text-align:left;float:right;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacC{display:table-cell;width:calc(100% - 45mm);vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacC span{display:inline-block;width:calc(33.33333% - 0.66666mm);font-family:arial;font-size:6pt;color:red;line-height:1;float:left;margin-top:0mm;text-align:center;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac1 .uRedak3 .uStupacC input{cursor:pointer;width:3.5mm;height:3.5mm;padding:0;border:0.15mm solid red;text-align:center;float:left;margin-top:0.5mm;margin-left:1mm;}
+
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac2{display:table-cell;width:43mm;height:100%;box-shadow:inset -0.15mm 0 0 red,inset 0mm 0.15mm 0 red;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac2 textarea{cursor:pointer;width:calc(100% - calc(0.45mm + 4mm));height:calc(100% - 0.9mm);margin:0.3mm 0.15mm 0.3mm 0.3mm;padding:2mm;resize:none;border:none;overflow:hidden;font-family:arial;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac2 textarea::-webkit-input-placeholder{color:red;font-size:6pt;}
+
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac3{display:table-cell;width:43mm;height:100%;box-shadow:inset -0.15mm 0 0 red,inset 0mm 0.15mm 0 red;vertical-align:top;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac3 textarea{cursor:pointer;width:calc(100% - calc(0.45mm + 4mm));height:calc(100% - 0.9mm);margin:0.3mm 0.15mm 0.3mm 0.3mm;padding:2mm;resize:none;border:none;overflow:hidden;font-family:arial;}
+.uOmotac .uNutarnjiOmotac .uBanka .uStupac3 textarea::-webkit-input-placeholder{color:red;font-size:6pt;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
